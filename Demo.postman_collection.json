@@ -1,0 +1,46 @@
+{
+	"id": "792edf06-d4b1-b30f-192d-b411dd31e478",
+	"name": "Demo",
+	"description": "",
+	"order": [
+		"e202f1aa-a69c-a5b4-ffae-7112ed385400"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1528899085942,
+	"owner": "1756420",
+	"public": false,
+	"requests": [
+		{
+			"id": "e202f1aa-a69c-a5b4-ffae-7112ed385400",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost/projects/demo/api/getUsers",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "792edf06-d4b1-b30f-192d-b411dd31e478",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost/projects/demo/api/getUsers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1528899092172,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"id\":1\n}"
+		}
+	]
+}
